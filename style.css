@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #007bff;
+}
+/********your code starts here***********/
+
+.bg-container{
+  background-color: #ffffff;
+  height: 100vh;
+}
+.todos-heading{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+.create-task-heading{
+  font-size: 35px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.create-task-sub-heading{
+  font-size: 35px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.todo-user-input{
+  width: 70%;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+}
+.add-todo-button{
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.save-todo-button{
+  background-color: #28a745;
+  color: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.my-task-heading{
+  font-size: 35px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.my-task-sub-heading{
+  font-size: 35px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.todo-item-container{
+  background-color: #ffffff;
+  width: 80%;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.checkbox-input{
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.label-container{
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  cursor: pointer;
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  color: #055625;
+}
+.checkbox-label{
+  display: flex;
+  align-items: center;
+}
+.checked{
+  text-decoration: line-through;
+  color: grey;
+}
+.delete-icon-container{
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 15%;
+  color: rgb(97, 9, 9);
+}
